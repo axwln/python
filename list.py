@@ -107,6 +107,38 @@
     
 #membership
 
-list1=[100,200,300,400,500]
-print(600 in list1)
-print(700 in list1)
+# list1=[100,200,300,400,500]
+# print(600 in list1)
+# print(700 in list1)
+
+#max()
+# list1=[103,675,321,782,200]
+# print(max(list1))
+
+#min
+# list1=[103,675,321,782,200]
+# print(min(list1))
+
+#INTERSECTION
+#1)intersection method
+# list1=[1,2,3,4,5]
+# list2=[3,4,5,6,7,]
+# intersection1=set(list1).intersection(list2)
+# print(intersection1)
+
+# #using & operator
+# intersection2=set(list1)&set(list2)
+# print(intersection2)
+
+
+a=[1,2,3,4,5,6,7,8,9,10]
+b=[2,4,6,8,10,12,14,16,18,20]
+c=[]
+for i in range(len(a)):
+    for j in range(len(b)):
+        if(a[i]==b[j]):
+            c.append(a[i])
+print(c)
+        
+    
+    
