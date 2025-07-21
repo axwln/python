@@ -195,14 +195,29 @@
 
 
 #letter a 
-n = 5
-for i in range(0, n):
-    for j in range(0, n - i):
-        print(" ", end="")
-    for k in range(0, i + 1):
-        if i == n // 2 or k == 0 or k == i:
-            print("* ", end="")
-        else:
-            print("  ", end="")
-    print()
+# n = 5
+# for i in range(0, n):
+#     for j in range(0, n - i):
+#         print(" ", end="")
+#     for k in range(0, i + 1):
+#         if i == n // 2 or k == 0 or k == i:
+#             print("* ", end="")
+#         else:
+#             print("  ", end="")
+#     print()
 
+# n=6
+# for i in range(0,n): 
+#      for j in range(1,i+1): 
+#         print(j ,end=" ") 
+         
+#      print()
+
+
+
+# for r in range(5):
+#     n=65
+#     for j in range(r+1):
+#         print(chr(n),end=" ")
+#         n+=1
+#     print("")
