@@ -1,4 +1,4 @@
-from calc import addition,sub,multi,div
+from calcfun import addition,sub,multi,div
 while True:
     print("1. ADDITION")
     print("2. SUTRARION")

@@ -8,7 +8,7 @@ def div(x,y):
     if(y!=0):
         return x/y
     else:
-        print("undefined")
+        print("second numer cannot be zero")
         
 def multi(x,y):
     return x*y
